@@ -1,0 +1,14 @@
+void setup() {
+  size(300,200); //widow size
+ 
+}
+
+void draw() {
+  
+  // background color
+  background(200);  
+  fill(0);    //text color  
+  text("Hello Strings!",10,100); //text position
+  fill(255/2);      
+  text("Hello Strings!",10,150);
+}
